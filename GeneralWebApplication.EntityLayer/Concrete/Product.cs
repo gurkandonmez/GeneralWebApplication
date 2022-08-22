@@ -19,5 +19,8 @@ namespace GeneralWebApplication.EntityLayer.Concrete
         public bool Status { get; set; }
         public DateTime Date { get; set; }
 
+        public int ProductCategoryId { get; set; }
+        public ProductCategory Category { get; set; }
+
     }
 }

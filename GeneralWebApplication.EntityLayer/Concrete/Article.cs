@@ -20,6 +20,11 @@ namespace GeneralWebApplication.EntityLayer.Concrete
 
         public DateTime CreateDate { get; set; }
         public bool Status { get; set; }
+        
+        public int ArticleCategoryId { get; set; }  
+        public ArticleCategory ArticleCategory { get; set; }
+
+        public List<Comment> Comments { get; set; }
 
     }
 }

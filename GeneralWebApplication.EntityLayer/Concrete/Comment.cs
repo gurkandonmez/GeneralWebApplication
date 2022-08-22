@@ -20,5 +20,10 @@ namespace GeneralWebApplication.EntityLayer.Concrete
         public DateTime Date { get; set; }
 
         public bool Status { get; set; }
+
+        public int ArticleId { get; set; }
+
+        public Article Article { get; set; }
+
     }
 }
